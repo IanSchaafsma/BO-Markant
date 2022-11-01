@@ -1,6 +1,7 @@
 @use "reset";
 @use "base";
-@use "./abstract/colors";
 @use "./abstract/mixins";
 @use "./abstract/mediaqueries";
-@use "./components/header";
+@use "./components/homepage/header";
+@use "./components/homepage/banner";
+@use "./components/homepage/main";

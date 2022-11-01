@@ -1,0 +1,110 @@
+*, *::before, *::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+body {
+  font-size: 2rem;
+}
+
+body {
+  min-height: 100vh;
+  font-family: sans-serif;
+}
+
+.header {
+  width: 100%;
+  height: 10rem;
+  background: #b5d43b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.header__logo {
+  max-width: 20rem;
+  min-width: 10rem;
+  height: 100%;
+}
+
+.header__img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.header__button {
+  text-decoration: none;
+  color: #eee;
+}
+
+.banner {
+  width: 100%;
+  height: 35vw;
+}
+.banner__bg {
+  background-image: url("../img/Op-de-markt.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 4rem;
+}
+.banner__button {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: #eee;
+  background: linear-gradient(to right, rgba(181, 212, 59, 0.8156862745), 80%, rgba(167, 198, 44, 0.8117647059));
+  border-radius: 0.2rem;
+  padding: 1.5rem 2rem;
+}
+
+.main {
+  width: 100%;
+  height: 150rem;
+  display: flex;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.main__articles {
+  width: 60%;
+  height: 100%;
+  background: red;
+}
+.main__articleList {
+  list-style: none;
+}
+.main__article {
+  border: 0.2rem solid black;
+}
+.main__sideBar {
+  width: 40%;
+  height: 100%;
+  background: blue;
+}
+.main__subscription {
+  width: 100%;
+  height: 50%;
+  background: green;
+}
+.main__vacancies {
+  width: 100%;
+  height: 50%;
+  background: yellow;
+}
+
+/*# sourceMappingURL=style.css.map */
