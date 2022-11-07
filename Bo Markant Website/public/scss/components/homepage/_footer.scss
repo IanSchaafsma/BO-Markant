@@ -1,0 +1,42 @@
+.footer{
+    width: 100%;
+    height: 10rem;
+    background: #b5d43b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 4rem;
+    padding-right: 8rem;
+
+    &__buttons{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &__buttonsWrapper{
+        display: flex;
+        gap: 4rem;
+    }
+
+    &__button{
+        text-decoration: none;
+        color: #eee;
+    }
+
+    &__cp{
+        color: #eee;
+        font-size: 60%;
+    }
+
+    &__media{
+        display: flex;
+        gap: 2rem;
+    }
+
+    &__mediaButton{
+        color: #eee;
+        font-size: 4rem;
+    }
+}
+
