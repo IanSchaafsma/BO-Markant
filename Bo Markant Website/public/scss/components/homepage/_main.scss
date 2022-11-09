@@ -6,11 +6,12 @@
     padding-right: 6rem;
     padding-top: 4rem;
     padding-bottom: 4rem;
+    background: #d9ef82;
 
     &__articles{
-        width: 60%;
+        width: 70%;
         height: 100%;
-        background: red;
+        background: #98b428;
     }
 
     &__articleList{
@@ -18,15 +19,32 @@
     }
 
     &__article{
-        border: 0.2rem solid black;
+        display: flex;
+        padding: 4rem;
+        padding-top: 6rem;
+        position: relative;
+    }
+
+    &__article::before{
+        content: "";
+        width: 72%;
+        height: 0.1rem;
+        background: white;
+        position: absolute;
+        top: 0;
+        left: 4rem;
+        margin-top: 4rem;
     }
 
     &__img{
-
+        
     }
 
     &__articleWrapper{
-
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+        color: #eee;
     }
 
     &__text{
@@ -34,24 +52,118 @@
     }
 
     &__button{
+        color: #eee;
+        background: none;
+        border: none;
+        font-size: 2rem;
+        display: flex;
+        margin-top: 8rem;
+        justify-content: flex-end;
 
+        &:hover{
+            color: #d9ef82;
+            cursor: pointer;
+        }
     }
 
     &__sideBar{
-        width: 40%;
+        width: 30%;
         height: 100%;
-        background: blue;
+        background:#98b428;
+        padding-top: 4rem;
     }
 
     &__subscription{
         width: 100%;
-        height: 50%;
-        background: green;
+        height: 35%;
+        display: flex;
+        flex-direction: column;
+        gap: 2.5rem;
+    }
+
+    &__title{
+        color: white;
+        font-size: 200%;
+        position: relative;
+    }
+
+    &__title::after{
+        content: "";
+        width: 83%;
+        height: 0.1rem;
+        background: white;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        margin-top: 1rem;
+    }
+
+    &__signupWrapper{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+
+    &__label{
+        color: white;
+        padding-left: 1rem;
+    }
+
+    &__input{
+        width: 84%;
+        padding: 1rem 1rem;
+        border: none;
+        border-radius: 0.2rem;
+    }
+
+    &__submit{
+        border: white 0.1rem solid;
+        color: white;
+        background: #98b428;
+        padding: 0.8rem 2rem;
+        align-self: flex-end;
+        margin-right: 16%;
+        margin-top: 2rem;
+
+        &:hover{
+            cursor: pointer;
+            background: #a4c22b;
+        }
+    }
+
+    &__submit--vac{
+        margin-top: 0;
     }
 
     &__vacancies{
         width: 100%;
-        height: 50%;
-        background: yellow;
+    }
+
+    &__a{
+        color: white;
+        text-decoration: none;
+        position: relative;
+
+        &:hover{
+            color: #d9ef82;
+        }
+    }
+
+    &__a::after{
+        content: "";
+        width: 83%;
+        height: 0.1rem;
+        background: white;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        margin-top: 2rem;
+    }
+
+    &__aContainer{
+        margin-top: 4rem;
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
     }
 }

@@ -22,6 +22,11 @@
     &__button{
         text-decoration: none;
         color: #eee;
+
+        &:hover{
+            text-decoration: underline;
+        }
+        
     }
 
     &__cp{
@@ -37,6 +42,11 @@
     &__mediaButton{
         color: #eee;
         font-size: 4rem;
+
+        &:hover{
+            color: #d9ef82;
+            cursor: pointer;
+        }
     }
 }
 

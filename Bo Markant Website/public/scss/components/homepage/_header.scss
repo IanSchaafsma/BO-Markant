@@ -22,4 +22,9 @@
 .header__button{
     text-decoration: none;
     color: #eee;
+
+    &:hover{
+        text-decoration: underline;
+    }
 }
+

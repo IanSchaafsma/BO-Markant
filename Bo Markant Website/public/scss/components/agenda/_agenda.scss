@@ -1,0 +1,57 @@
+.header__img{
+  
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      
+}
+
+.agendaMain{
+    background: #98b428;
+    color: white;
+}
+
+.section{
+    background: #bdd84e;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 60%;
+    margin: 10 rem auto 0 auto;
+
+}
+
+.section1{
+    background: #b3cb53;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 60%;
+    margin: 10 rem auto 0 auto;
+}
+
+.section1 h2{
+    margin: 0;
+}
+
+.section1 img{
+    height: 250px;
+}
+
+.section1 p{
+    color: white;
+    margin-right: 15px;
+}
+
+.section h2{
+    margin: 0;
+}
+
+.section img{
+    height: 250px;
+}
+
+.section p{
+    color: white;
+    margin-right: 15px;
+}
